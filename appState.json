@@ -11,7 +11,7 @@
         "isRemovable": true,
         "filePath": "kawsnodefb.js",
         "cursor": {
-          "lineNumber": 1,
+          "lineNumber": 3,
           "column": 1
         },
         "config": {
@@ -107,6 +107,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "k1",
+        "varValue": "v1",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -117,6 +125,12 @@
           "version": "2.817.0",
           "dev": true,
           "notRemovable": false
+        },
+        "mysql": {
+          "name": "mysql",
+          "version": "2.18.1",
+          "dev": false,
+          "language": "nodejs"
         }
       }
     }
@@ -130,7 +144,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1626097728041
+    "lastSave": 1626098022489
   },
   "VCS_STATE": {
     "provider": "GitHub",

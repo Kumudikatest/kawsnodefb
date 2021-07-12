@@ -97,6 +97,7 @@
         },
         "Environment": {
           "Variables": {
+            "k1": "v1",
             "SIGMA_AWS_ACC_ID": {
               "Ref": "AWS::AccountId"
             }
@@ -163,7 +164,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigfeedbackApiDeployment1626097734443": {
+    "apigfeedbackApiDeployment1626098028500": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "8yoxz8d5l2",

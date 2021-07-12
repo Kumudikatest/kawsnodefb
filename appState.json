@@ -1,0 +1,142 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d2abe1eb-4dd7-46f5-bfb2-2e806b637ae7": {
+        "id": "d2abe1eb-4dd7-46f5-bfb2-2e806b637ae7",
+        "parent": null,
+        "name": "kawsnodefb.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kawsnodefb.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kawsnodefb"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigfeedbackApiany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1626096808141,
+        "testCases": {
+          "ddfb4f2a-0d04-470d-ae64-a839de87dc2b": {
+            "id": "ddfb4f2a-0d04-470d-ae64-a839de87dc2b",
+            "name": "Test event",
+            "functionId": "d2abe1eb-4dd7-46f5-bfb2-2e806b637ae7",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "c7028f38-bf19-459a-86ef-8d5b441730e3": {
+        "id": "c7028f38-bf19-459a-86ef-8d5b441730e3",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      }
+    },
+    "openFiles": [
+      "d2abe1eb-4dd7-46f5-bfb2-2e806b637ae7"
+    ],
+    "currentFileId": "d2abe1eb-4dd7-46f5-bfb2-2e806b637ae7",
+    "resources": {
+      "apigfeedbackApiany": {
+        "name": "apigfeedbackApiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "feedback-api",
+          "apiId": "8yoxz8d5l2",
+          "endpointType": "EDGE",
+          "rootResourceId": "bmvq04amkf",
+          "existingResources": {
+            "/": "bmvq04amkf",
+            "/add": "ybhhzx"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "bmvq04amkf",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "prod",
+          "stageDeploymentId": "h4z6nl",
+          "mode": 1
+        }
+      },
+      "s3qraldemo": {
+        "name": "s3qraldemo",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "qraldemo"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.0",
+    "projectName": "kawsnodefb",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1626097728041
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kawsnodefb",
+      "url": "https://github.com/Kumudikatest/kawsnodefb"
+    }
+  }
+}
